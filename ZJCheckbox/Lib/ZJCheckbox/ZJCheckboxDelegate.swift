@@ -8,5 +8,5 @@
 import Foundation
 
 protocol ZJCheckboxDelegate {
-    func didSelectCheckbox(state: Bool, identifier: Int, title: String);
+    func didSelectCheckbox(_ state: Bool, identifier: Int, title: String);
 }
